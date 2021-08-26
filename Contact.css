@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+
+
+body{
+    background:url(images/hero/bgc.jpg);
+    background-size: cover;
+    font-family: 'Comic Neue', cursive;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+
+}
+h1{
+    animation:titre ease-in-out 1s;
+}
+  @keyframes titre{
+     0%{
+         opacity: 0;
+         transform: translateY(380px);
+     } 
+     100%{
+        opacity: 1;
+        transform: translateY(0px);
+    } 
+  }
+ul {
+    list-style-type: none;
+    margin: 0 px;
+    padding: 0 px;
+    overflow: hidden;
+  }
